@@ -14,43 +14,69 @@
       background-color: #fdfdfd; /* Цвет фона */
     }
     table {
-      border-collapse: collapse; /* Красивые таблицы */
+      border-collapse: collapse; 
       width: 100%;
       margin: 20px 0;
     }
     table, th, td {
       border: 1px solid #333;
       padding: 8px;
-      text-align: left;
+      text-align: center;
+      vertical-align: top;  
     }
     ul, ol {
       margin: 10px 0 20px 40px; /* Отступы для списков */
     }
+    a {
+    color: rgb(48, 186, 245);           
+    text-decoration: underline;  
+  }
   </style>
 </head>
 <body>
-    <h1>Расписание занятий с 04/01/2017</h1>
-    <h2>Кафедра ПОИТ</h2>
+    <h1>Расписание занятий <strong>с 04/01/2017</strong></h1>
+    <h2><i>Кафедра ПОИТ</i></h2>
     <table>
   <tr>
-    <th>Имя</th>
-    <th>Возраст</th>
-    <th>Город</th>
+    <th rowspan="2"></th>
+    <th rowspan="2">Время</th>
+    <th colspan="2">2 Курс</th>
   </tr>
    <tr>
-    <th>Имя</th>
-    <th>Возраст</th>
-    <th>Город</th>
+    <th>ПОИТ-01</th>
+    <th>ПОИТ-02</th>
   </tr>
   <tr>
-    <td>Ирина</td>
-    <td>30</td>
-    <td>Тбилиси</td>
+    <td rowspan="3">П<br>о<br>н<br>е<br>д<br>е<br>л<br>ь<br>н<br>и<br>к<br> </td>
+    <td>9<sup>00</sup> - 11<sup>00</sup></td>
+    <td><a href="">Базы данных</a><br> Иванов И.И.<br> 412</td>
+    <td><a href="">Информатика</a><br>Курочка С.П. <br>506</td>
   </tr>
   <tr>
-    <td>Алексей</td>
-    <td>25</td>
-    <td>Киев</td>
+    <td>11<sup>10</sup> - 13<sup>10</sup></td>
+    <td><a href="">Компьютерные сети</a><br>Сидоров С.С.<br>508 </td>
+    <td><a href="">Компьютерная графика</a><br>Петров П.П. <br>414</td>
+  </tr>
+  <tr>
+    <td>13<sup>20</sup> - 14<sup>20</sup></td>
+    <td><a href="">Информатика</a><br>Курочка С.И. <br> 506</td>
+    <td><a href="">Компьютерные сети</a><br>Сидоров С.С.<br>508</td>
+  </tr>
+  <tr>
+    <td rowspan="3">В<br>т<br>о<br>р<br>н<br>и<br>к<br></td>
+    <td>15<sup>30</sup> - 17<sup>30</sup></td>
+    <td><a href="">Алгоритмизация</a><br> Дмитриев Д.Д<br>202</td>
+    <td><a href="">Проектирование</a><br> Сергеенко С.С.<br>412</td>
+  </tr>
+  <tr>
+    <td>17<sup>40</sup> - 19<sup>40</sup></td>
+    <td><a href="">Проектирование</a><br>Сергеенко С.С. <br>412</td>
+   <td><a href="">Алгоритмизация</a><br>Дмитриев Д.Д. <br>202</td>
+  </tr>
+  <tr>
+    <td>19<sup>50</sup> - 21<sup>50</sup></td>
+    <td><a href="">Компьютерная графика</a><br>Петров П.П. <br> 414</td>
+    <td><a href="">Базы данных</a><br>Иванов И.И. <br>412</td>
   </tr>
 </table>
     
